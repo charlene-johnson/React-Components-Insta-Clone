@@ -4,16 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icons'
 import "./SearchBar.css";
-import logoImage from ''
+
 
 const SearchBar = () => {
   return (
     <div className="search-bar-wrapper">
       <div className="social">
         <FontAwesomeIcon icon={faInstagram} />
-      </div>
-      <div className="logo.image">
-
+          <span className="llama">Llamagram</span>
       </div>
       <form className="search-form">
         <input
