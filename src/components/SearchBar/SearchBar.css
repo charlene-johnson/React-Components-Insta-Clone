@@ -6,6 +6,7 @@
   align-items: center;
   background: #ffffff;
 }
+
 .search-form {
   width: 150px;
   font-size: 14px;
@@ -24,5 +25,12 @@
 }
 
 .social {
+  display:flex;
   width: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.llama {
+  margin-left: 100%;
+  font-family: "Alex Brush"; font-size: 32px;
 }
